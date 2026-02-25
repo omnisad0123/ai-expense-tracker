@@ -1,0 +1,11 @@
+import api from "./api";
+
+export const getBudgets = async () => {
+  const res = await api.get("/budgets");
+  return res.data;
+};
+
+export const setBudget = async (data) => {
+  const res = await api.post("/budgets", data);
+  return res.data;
+};

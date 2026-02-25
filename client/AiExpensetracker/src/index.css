@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-50;
+  }
+}
+/* Custom Scrollbar for Chrome/Safari/Edge */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}

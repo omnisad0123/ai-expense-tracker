@@ -68,3 +68,4 @@ function DashboardLayout({ children }) {
     </div>
   );
 }
+export default DashboardLayout;

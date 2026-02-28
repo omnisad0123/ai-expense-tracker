@@ -39,10 +39,12 @@ function RegisterPage() {
             <div className="bg-indigo-600 p-2 rounded-xl shadow-lg shadow-indigo-500/20">
               <Wallet size={24} className="text-white" />
             </div>
-            <span className="text-2xl font-black italic tracking-tighter text-white uppercase">FinAI</span>
+            <span className="text-2xl font-black italic tracking-tighter text-white uppercase">FINTrack</span>
           </div>
 
-          <h2 className="text-4xl font-black text-white mb-2">Join FinAI</h2>
+          <h2 className="text-2xl font-black tracking-tighter italic">
+              FIN<span className="text-indigo-500">Track</span>
+            </h2>
           <p className="text-slate-400 mb-10">Start your AI-powered financial journey today.</p>
 
           <form onSubmit={handleSubmit} className="space-y-5">
